@@ -1,0 +1,71 @@
+body {
+    margin: 3%;
+}
+
+h2 {
+
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: lightgray
+
+}
+
+
+.introduction {
+    padding: 1%;
+    margin-top: 2%;
+    text-align: center;
+}
+#about {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 45%;
+    height: 40%
+    
+
+}
+
+#work {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 45%;
+    height: 40%s
+
+}
+
+#random1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 45%;
+    height: 40%
+}
+
+#random2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 45%;
+    height: 40%;
+}
+
+
+
+section {
+    display:inline-block;
+    padding: 0% 2% 2% 2%;
+    margin-bottom: 1%;
+    
+    
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+}
