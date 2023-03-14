@@ -1,65 +1,43 @@
 body {
     margin: 3%;
+    background-color: rgb(158, 161, 161);
+}
+
+h1 {
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1:hover {
+    color: rgb(92, 130, 139);
 }
 
 h2 {
 
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
-    background-color: lightgray
+    background-color: lightgray;
+    width: 50%;
+    margin-left: 55%;
+    align-items: center;
+    position: relative;
+    bottom: 63px;
+    right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-
-.introduction {
-    padding: 1%;
-    margin-top: 2%;
-    text-align: center;
-}
-#about {
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px grey;
-    width: 45%;
-    height: 40%
-    
-
+h2.foot {
+    bottom: 40px;
+    color: rgb(92, 130, 139);
 }
 
-#work {
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px grey;
-    width: 45%;
-    height: 40%s
+p {
+    margin: 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
-
-#random1 {
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px grey;
-    width: 45%;
-    height: 40%
-}
-
-#random2 {
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px grey;
-    width: 45%;
-    height: 40%;
-}
-
-
-
-section {
-    display:inline-block;
-    padding: 0% 2% 2% 2%;
-    margin-bottom: 1%;
-    
-    
 }
 
 footer {
@@ -69,3 +47,180 @@ footer {
 nav {
     text-align: right;
 }
+
+
+hr {
+    border: 2px solid rgb(82, 72, 72);
+}
+
+/* body box styling */
+
+.introduction {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left: 55%;
+    margin-top: 2%;
+    position: relative;
+    bottom: 20px;
+    width: 20%;
+    height: 7%;
+}
+
+
+#about {
+    border: 1px dashed black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 40%;
+    height: 30%;
+    /*
+    background-color: rgb(177, 201, 207); */
+
+    background-image: url("../image/rick.gif"); background-repeat:no-repeat;
+    background-position: center;
+
+    /*
+    background-size: 100%; */
+
+}
+
+.aboutme {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: 50%;
+
+
+}
+
+
+#exp {
+    border: 1px dashed black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(177, 201, 207);
+
+    background-image: url("../image/exp.gif"); background-repeat:no-repeat;
+    
+    background-position: 45% 0%;
+    background-size: 100%;
+}
+
+.exp {
+    border: 1px solid black;
+    background-color: white;
+    height: 50%;
+}
+
+#random1 {
+    border: 1px dashed black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(177, 201, 207);
+
+}
+
+.random01 {
+    border: 1px solid black;
+    background-color: white;
+    height: 50%;
+}
+
+#random2 {
+    border: 1px dashed black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(177, 201, 207);
+    
+}
+
+.random02 {
+    border: 1px solid black;
+    background-color: white;
+    height: 50%;
+    
+}
+
+
+
+section {
+    display:inline-block;
+    padding: 2%;
+    margin: 2%;
+
+    
+    
+    
+    
+}
+
+
+/* Link styling */
+
+a:link {
+    color: black;
+}
+
+a:hover {
+ color: red;
+}
+
+a:visited {
+    color: rgb(174, 20, 212);
+}
+
+/* nav */
+.dropbtn {
+    background-color: #535753;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: grabbing;
+
+  }
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #030303;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    color: rgb(248, 248, 248);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #bebebe;
+  }

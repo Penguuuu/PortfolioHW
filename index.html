@@ -17,12 +17,17 @@
     </div>
 
     <header>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#random1">Random1</a>
-            <a href="#random2">Random2</a>
-        </nav>
+
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#about">About Me</a>
+                <a href="#exp">Experience</a>
+                <a href="#random1">Random1</a>
+                <a href="#random2">Random2</a>
+                <a href="#contact">Contact</a>
+            </div>
+          </div>
     </header>
 
     <hr>
@@ -40,15 +45,21 @@
             </div>
         </section>
 
-        <section id="work">
-            <h2>Work</h2>
-            <div class="work1">
-                <div>Random</div>
+        
+
+        <section id="exp">
+            <h2>Experience</h2>
+            <div class ="exp">
+                <p>
+                    Hello, my name is Peng Vang. I am a student at University of Minnesota Web Dev Boot Camp.
+                </p>
+
+                <p>This is test test test test test</p>
             </div>
         </section>
 
         <section id="random1">
-            <h2>About Me</h2>
+            <h2>Random</h2>
             <div class ="random01">
                 <p>
                     Hello, my name is Peng Vang. I am a student at University of Minnesota Web Dev Boot Camp.
@@ -59,7 +70,7 @@
         </section>
 
         <section id="random2">
-            <h2>About Me</h2>
+            <h2>More Random</h2>
             <div class ="random02">
                 <p>
                     Hello, my name is Peng Vang. I am a student at University of Minnesota Web Dev Boot Camp.
@@ -68,16 +79,20 @@
                 <p>This is test test test test test</p>
             </div>
         </section>
+
+        
      </main>
 </body>
 <br>
 <hr>
 <footer id="contact">
-    <h2>Contact info</h2>
+    <h2 class="foot">Contact info</h2>
+    <section id="contact">
     <div class="contact">
         <a href="tel:+5555555555">Contact Number</a>
         <a href="Mailto:random@random.com">Email</a>
         <a href="http://github.com/Penguuuu">Github</a>
     </div>
+</section>
 </footer>
 </html>
