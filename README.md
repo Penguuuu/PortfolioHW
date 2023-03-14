@@ -1,9 +1,8 @@
 ## Description
 
-- Shows potential employers my work
-- Details of about me
-- Details of my work I've done
-- Details of my contact information
+- Shows potential employers my experience and work I have done
+- Details about myself
+- Contact information and links to my work
 
 ## Description
 
