@@ -5,12 +5,7 @@ body {
 
 h1 {
     color: black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-h1:hover {
-    color: rgb(92, 130, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2 {
@@ -19,9 +14,8 @@ h2 {
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     background-color: lightgray;
-    width: 50%;
+    width: 49%;
     margin-left: 55%;
-    align-items: center;
     position: relative;
     bottom: 63px;
     right: 15px;
@@ -36,7 +30,7 @@ h2.foot {
 
 p {
     margin: 2%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -44,28 +38,49 @@ footer {
     text-align: center;
 }
 
-nav {
-    text-align: right;
-}
-
+/* hr design */
 
 hr {
     border: 2px solid rgb(82, 72, 72);
 }
 
-/* body box styling */
+/* actual image */
+
+.selfie {
+    background-color: #ccc;
+    width: 200px;
+    height: 200px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+.selfie:hover {
+    background-image: url("../image/Self.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+/* troll image */ 
+
+#myPicture {
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+/* selective box styling */
 
 .introduction {
     text-align: center;
     border: 3px solid black;
     border-radius: 10px;
     background-color: lightgray;
-    margin-left: 55%;
     margin-top: 2%;
     position: relative;
     bottom: 20px;
     width: 20%;
-    height: 7%;
+    height: 9%;
 }
 
 
@@ -73,20 +88,19 @@ hr {
     border: 1px dashed black;
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
-    width: 40%;
-    height: 30%;
+    width: 50%;
+    height: 20%;
     /*
     background-color: rgb(177, 201, 207); */
 
-    background-image: url("../image/rick.gif"); background-repeat:no-repeat;
+    background-image: url("../image/magic.jpg");
+    background-repeat: no-repeat;
     background-position: center;
-
-    /*
-    background-size: 100%; */
+    background-size: 100%;
 
 }
 
-.aboutme {
+.aboutMe {
     border: 1px solid black;
     border-radius: 5px;
     background-color: white;
@@ -100,14 +114,16 @@ hr {
     border: 1px dashed black;
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
-    width: 40%;
-    height: 30%;
-    background-color: rgb(177, 201, 207);
+    width: 30%;
+    height: 20%;
 
-    background-image: url("../image/exp.gif"); background-repeat:no-repeat;
-    
-    background-position: 45% 0%;
+    background-image: url("../image/exp.gif");
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: 100%;
+    ;
+    background-position: 30% 0%;
+
 }
 
 .exp {
@@ -120,9 +136,14 @@ hr {
     border: 1px dashed black;
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
-    width: 40%;
-    height: 30%;
-    background-color: rgb(177, 201, 207);
+    width: 30%;
+    height: 20%;
+
+    background-image: url("../image/Music.jpg");
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+
 
 }
 
@@ -136,30 +157,31 @@ hr {
     border: 1px dashed black;
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
-    width: 40%;
-    height: 30%;
+    width: 30%;
+    height: 20%;
     background-color: rgb(177, 201, 207);
-    
+
 }
 
 .random02 {
     border: 1px solid black;
     background-color: white;
     height: 50%;
-    
+
 }
 
 
 
 section {
-    display:inline-block;
+    display: inline-block;
     padding: 2%;
     margin: 2%;
 
-    
-    
-    
-    
+
+
+
+
+
 }
 
 
@@ -170,12 +192,34 @@ a:link {
 }
 
 a:hover {
- color: red;
+    color: red;
 }
 
 a:visited {
     color: rgb(174, 20, 212);
 }
+
+/* Myself button codes */
+
+.displayPicture {
+    background-color: #535753;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: grabbing;
+}
+
+.displayPicture:hover::before {
+    content: "Double click to see how I look like!";
+    position: absolute;
+    left: 15%;
+    color: black;
+    background-color: cyan;
+
+}
+
 
 /* nav */
 .dropbtn {
@@ -187,40 +231,56 @@ a:visited {
     border-radius: 10px;
     cursor: grabbing;
 
-  }
-  
+}
 
-  .dropdown {
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
+}
 
-  .dropdown-content {
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #030303;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
+}
 
-  .dropdown-content a {
+
+.dropdown-content a {
     color: rgb(248, 248, 248);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
+}
 
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
 
-  .dropdown:hover .dropdown-content {
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
+}
+
+.dropdown:hover .dropbtn {
     background-color: #bebebe;
-  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about {
+        width: 40%;
+    }
+
+}
