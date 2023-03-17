@@ -4,17 +4,9 @@
 - Details about myself
 - Contact information and links to my work
 
-## Description
-
-N/A
-
 ## Usage
 
-Shows my potential to future employers and the work I've done
-
-## Credits
-
-N/A
+- To showcase the skills and knowledge I have picked up for the weeks lessons
 
 # live page 
 https://penguuuu.github.io/PortfolioHW/
